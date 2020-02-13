@@ -1,0 +1,103 @@
+
+
+     div {
+       text-align: center;
+        font-size: 35px;
+        font-family: bureau-grot, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        border: solid black 4px; 
+      }
+     
+  body {
+  font-family: bureau-grot, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  }
+
+h2:hover {
+color: #26408d;
+}
+
+h3:hover {
+color: #d3242a;
+}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px 5px;
+    background-color: black;
+    border: solid black 5px;
+  }
+
+  .image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+  .image1 {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+  .grid-item-1 {
+    background-color: #d2232a;
+  }
+  
+  img:hover {
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
+  }
+
+  .grid-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #26408d;
+  }
+
+  .grid-item-3 {
+    background-color: white;
+  }     
+
+  #grid-item-3:hover {
+    background-color: #25408f;
+  }
+
+  .grid-item-4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: white;
+  } 
+
+   #grid-item-4:hover {
+    background-color: #26408d;
+  }
+
+  .grid-item-5 {
+    background-color: white;
+  }
+   #grid-item-5:hover {
+    background-color: #dcb127;
+  }
+
+  .grid-item-6 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #dcb127;
+  } 
+      
+
+      #container{
+        display: grid;
+        grid-template-columns: 400px 150px 200px 150px;
+        grid-template-rows: 150px 100px 100px 150px 100px;
+        width: 1366px;
+        height: 768px;
+      }
+
+      

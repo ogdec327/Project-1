@@ -1,0 +1,49 @@
+ div {
+       text-align: center;
+        font-size: 35px;
+        font-family: bureau-grot, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        border: solid black 4px; 
+      }
+     
+  body {
+  font-family: bureau-grot, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px 5px;
+    background-color: black;
+    border: solid black 5px;
+  }
+
+   .grid-item-1 {
+    background-color: white;
+    border: solid black 5px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+
+  .grid-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+     background-color: white;
+    border: solid black 5px;
+  }
+
+  .grid-item-3 {
+       grid-column-start: 2;
+    grid-column-end: 5;
+     background-color: white;
+    border: solid black 5px;
+  }     
+
+  img:hover {
+  -webkit-filter: invert(10);
+  filter: invert(10);
+  }
