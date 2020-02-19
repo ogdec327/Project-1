@@ -48,10 +48,15 @@ color: #d3242a;
   .grid-item-1 {
     background-color: #d2232a;
   }
-  
+
   img:hover {
-  -webkit-filter: saturate(8);
-  filter: saturate(8);
+  -webkit-filter: saturate(1.5);
+  filter: contrast(100px);
+  filter: saturate(1.5);
+  }
+
+  img:hover {
+  filter: invert(50px);
   }
 
   .grid-item-2 {

@@ -44,6 +44,6 @@
   }     
 
   img:hover {
-  -webkit-filter: invert(10);
-  filter: invert(10);
+  -webkit-filter: gray(10);
+  filter: saturate(300%);
   }
