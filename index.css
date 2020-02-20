@@ -15,13 +15,22 @@
   font-style: normal;
   font-size: 35px;
   }
+a { color: black; }
+
+
+a:hover {
+  color: lightyellow;
+  transition: .5s;
+}
 
 h2:hover {
-color: #26408d;
+color: white;
+transition: .5s;
 }
 
 h3:hover {
-color: #d3242a;
+color: white;
+transition: .5s;
 }
 
 
@@ -48,15 +57,14 @@ color: #d3242a;
   .grid-item-1 {
     background-color: #d2232a;
   }
-
-  img:hover {
-  -webkit-filter: saturate(1.5);
-  filter: contrast(100px);
-  filter: saturate(1.5);
+  img {
+    filter: blur(10px);
   }
-
+  
   img:hover {
-  filter: invert(50px);
+  filter: blur(0px);
+  transition: .5s;
+
   }
 
   .grid-item-2 {
@@ -68,9 +76,9 @@ color: #d3242a;
   .grid-item-3 {
     background-color: white;
   }     
-
-  #grid-item-3:hover {
+  .grid-item-3:hover{
     background-color: #25408f;
+    transition: .5s;
   }
 
   .grid-item-4 {
@@ -79,15 +87,17 @@ color: #d3242a;
     background-color: white;
   } 
 
-   #grid-item-4:hover {
-    background-color: #26408d;
+   .grid-item-4:hover {
+    background-color: #d3242a;
+    transition: .5s;
   }
 
   .grid-item-5 {
     background-color: white;
   }
-   #grid-item-5:hover {
+   .grid-item-5:hover {
     background-color: #dcb127;
+    transition: .5s;
   }
 
   .grid-item-6 {

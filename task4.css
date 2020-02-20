@@ -45,5 +45,6 @@
 
   img:hover {
   -webkit-filter: gray(10);
-  filter: saturate(300%);
+  filter: hue-rotate(1000deg);
+  transition: 30s;
   }

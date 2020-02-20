@@ -7,6 +7,13 @@ font-style: normal;
 color: black;
 background-color: black;
 }
+a { color: black; }
+
+a:hover {
+  color: lightyellow;
+  transition: .5s;
+  font-size: 50px;
+}
 
 div {
        text-align: center;
@@ -37,6 +44,8 @@ div {
 
       #grid-item-1:hover {
       	background-color: #dcb127;
+        color: white;
+        transition: .5s;
       }
       
       #grid-item-2 {
@@ -50,7 +59,11 @@ div {
         grid-row-end: 50;
       }
      #grid-item-2:hover {
+      padding: 0px;
       background-color: #d2232a;
+      color: white;
+      transition: .5s;
+      font-size: 50px;
       }
 
       #grid-item-3 {
@@ -64,7 +77,10 @@ div {
         background-color: white;
       }
    #grid-item-3:hover {
-      	background-color: #25408f;
+      	padding: 0px;
+        background-color: #25408f;
+        color: white;
+        transition: .5s;
       }
          #grid-item-4 {
         background-color: white;
@@ -76,7 +92,11 @@ div {
         grid-row-end: 30;
       }
        #grid-item-4:hover {
+        padding: 0px;
       	background-color: #d2232a;
+        color: white;
+        transition: .5s;
+        font-size: 50px;
       }
          #grid-item-5 {
         text-align: center;
@@ -91,12 +111,14 @@ div {
       }
        #grid-item-5:hover {
       	background-color: #dcb127;
+        color: white;
+        transition: .5s;
       }
 
        #container{
         display: grid;
         grid-template-columns: 400px 150px 200px 150px;
         grid-template-rows: 150px 100px 100px 150px 100px;
-        width: 1366px;
+        width: 1430px;
         height: 768px;
       }
